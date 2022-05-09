@@ -268,6 +268,9 @@ class Proxyserver:
                             for s in instance.sockets
                         }
                         ctx.log.info(
+                            f"This is the S+ Fork of mitmproxy V8.0.0",
+                        )
+                        ctx.log.info(
                             f"{name} server listening at {' and '.join(addrs)}"
                         )
 
